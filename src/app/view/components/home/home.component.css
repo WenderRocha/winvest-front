@@ -1,0 +1,76 @@
+.home {
+    width: 80%;
+    margin: 10px auto 30px auto;
+}
+
+.btn-g-green {
+    background-color: rgba(39, 174, 96, 0.4);
+}
+
+.card-default {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-default-item {
+    text-transform: uppercase;
+}
+
+.card-analyze {
+    width: 80%;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-analyze-item {
+    width: 26.66%;
+}
+
+.home-spacer {
+    flex: 1 1 auto;
+}
+
+@media (max-width: 600px) {
+    .card-default {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-default-item {
+        width: 80%;
+    }
+    .card-default-item {
+        margin: 10px;
+    }
+    .card-analyze {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-analyze-item {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .toolbar-home {
+        display: flex;
+        flex-wrap: wrap;
+        height: 130px;
+        justify-content: center;
+    }
+}
+
+.card-title {
+    font-size: 14px;
+}
+
+.card-value {
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}

@@ -1,4 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.bg-purple {
+    background-color: #9b59b6;
+}
+
+.bg-green {
+    background-color: #2ecc71;
+}
+
+.bg-blue {
+    background-color: #3498db;
+}
+
+.bg-red {
+    background-color: #e74c3c;
+}
+
+.bg-turquese {
+    background-color: #1abc9c;
+}
+
+.bg-yellow {
+    background-color: #f1c40f;
+}
+
+.d-flex-all-center {
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.align-items-center {
+    display: flex!important;
+    align-items: center!important;
+}
+
+.justify-content-center {
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.mr-1r {
+    margin-right: 1rem;
+}
+
+.mr-10p {
+    margin-right: 10px;
+}
+
+.ml-p10 {
+    margin-left: 10px;
+}

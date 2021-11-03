@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './view/components/home/home.component';
 import { HeaderComponent } from './view/components/template/header/header.component';
 import { NavComponent } from './view/components/template/nav/nav.component';
 
@@ -19,7 +20,8 @@ import { NavComponent } from './view/components/template/nav/nav.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

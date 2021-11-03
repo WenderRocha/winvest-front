@@ -1,0 +1,77 @@
+<mat-card class="home">
+    <mat-toolbar class="toolbar-home">
+
+        <button mat-button [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon> Quotex</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>Quotex</button>
+            <button mat-menu-item>IQ Option</button>
+            <button mat-menu-item>Binomo</button>
+        </mat-menu>
+
+        <span class="home-spacer"></span>
+
+        <button mat-button color="accent" class="mat-elevation-z8 btn-g-green">
+          <mat-icon class="mr-1r">add_circle</mat-icon> Iniciar Operação
+        </button>
+
+    </mat-toolbar>
+
+    <div class="card-default">
+
+        <mat-card class="card-default-item bg-purple mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title class="d-flex-all-center card-title">
+                    <span class="material-icons mr-1r">account_balance_wallet</span> Banca inicial
+                </mat-card-title>
+            </mat-card-header>
+
+            <mat-card-content>
+                <h3 class="card-value"> <small>R$</small> 157,00</h3>
+            </mat-card-content>
+        </mat-card>
+
+        <mat-card class="card-default-item bg-blue mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title class="d-flex-all-center card-title">
+                    <span class="material-icons mr-1r">equalizer</span>Banca atual
+                </mat-card-title>
+            </mat-card-header>
+
+            <mat-card-content>
+                <h3 class="card-value"><small>R$</small> 157,00</h3>
+            </mat-card-content>
+        </mat-card>
+
+        <mat-card class="card-default-item bg-green mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title class="d-flex-all-center card-title">
+                    <span class="material-icons mr-1r">attach_money</span> Lucro total
+                </mat-card-title>
+            </mat-card-header>
+
+            <mat-card-content>
+                <h3 class="card-value"><small>R$</small> 157,00</h3>
+            </mat-card-content>
+        </mat-card>
+
+        <mat-card class="card-default-item  bg-yellow mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title class="d-flex-all-center card-title">
+                    <span class="material-icons mr-1r">track_changes</span> Meta do dia
+                </mat-card-title>
+            </mat-card-header>
+
+            <mat-card-content>
+                <h3 class="card-value"><small>R$</small> 157,00</h3>
+            </mat-card-content>
+        </mat-card>
+
+    </div>
+
+</mat-card>
+
+<mat-card class="card-analyze">
+    <mat-card class="card-analyze-item">Evolution</mat-card>
+    <mat-card class="card-analyze-item">char pie</mat-card>
+    <mat-card class="card-analyze-item">Calendar</mat-card>
+</mat-card>
