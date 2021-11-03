@@ -1,0 +1,35 @@
+<mat-drawer-container class="nav-container" autosize>
+    <mat-drawer #drawer class="nav-sidenav" mode="side">
+
+        <mat-nav-list class="nav-list">
+            <a class="nav-item" mat-list-item routerLink="/">
+                <i class="material-icons">home</i>Home
+            </a>
+
+            <a class="nav-item" mat-list-item routerLink="carteira">
+                <i class="material-icons">account_balance_wallet</i>Carteiras
+            </a>
+
+            <a class="nav-item" mat-list-item routerLink="gerenciamento">
+                <i class="material-icons">percent</i>Gerênciamento
+            </a>
+
+            <a class="nav-item" mat-list-item routerLink="operacoes">
+                <i class="material-icons">menu_book</i>Operações
+            </a>
+            <a class="nav-item" mat-list-item routerLink="ferramentas">
+                <i class="material-icons">person_search</i>Ferramentas
+            </a>
+
+        </mat-nav-list>
+
+
+    </mat-drawer>
+
+    <div class="nav-sidenav-content">
+        <button type="button" mat-button (click)="drawer.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    </div>
+
+</mat-drawer-container>
