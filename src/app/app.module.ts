@@ -17,6 +17,12 @@ import { PieChartComponent } from './view/components/charts/pie-chart/pie-chart.
 import { HomeComponent } from './view/components/home/home.component';
 import { HeaderComponent } from './view/components/template/header/header.component';
 import { NavComponent } from './view/components/template/nav/nav.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatInputModule } from '@angular/material/input';
+import { MatNativeDateModule } from '@angular/material/core';
+import {MatTableModule} from '@angular/material/table';
+
+
 
 
 @NgModule({
@@ -39,7 +45,11 @@ import { NavComponent } from './view/components/template/nav/nav.component';
     MatMenuModule,
     MatDividerModule,
     MatCardModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatNativeDateModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

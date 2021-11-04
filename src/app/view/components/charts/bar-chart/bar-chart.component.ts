@@ -25,13 +25,13 @@ export class BarChartComponent implements OnInit {
     new Chart(this.ctx, {
       type: 'bar',
       data: {
-        labels: ['JAN', 'FEV', 'MAR', 'ABRI', 'MAI', 'JUN', 'JUL', 'AGOS', 'SET', 'OUT', 'NOV','DEZ'],
+        labels: ['OUT','NOV'],
 
         datasets: [{
 
           label: 'Evolução da Banca',
 
-            data: [0,0,0,0,0,0,0,0,0,0,157],
+            data: [20,157],
             backgroundColor: [
               'rgba(155, 89, 182, 0.5)',
             ],

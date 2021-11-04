@@ -87,3 +87,17 @@
 .demo-inline-calendar-card {
     width: 300px;
 }
+
+.home-table {
+    width: 100%;
+}
+
+.text-win {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.text-loss {
+    color: #e74c3c;
+    font-weight: bold;
+}
