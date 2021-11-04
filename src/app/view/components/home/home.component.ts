@@ -12,5 +12,5 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  selected: Date | null | undefined;
+  selected!: Date | null;
 }

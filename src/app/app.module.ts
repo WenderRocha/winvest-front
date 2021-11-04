@@ -12,16 +12,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarChartComponent } from './view/components/charts/bar-chart/bar-chart.component';
+import { PieChartComponent } from './view/components/charts/pie-chart/pie-chart.component';
 import { HomeComponent } from './view/components/home/home.component';
 import { HeaderComponent } from './view/components/template/header/header.component';
 import { NavComponent } from './view/components/template/nav/nav.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    BarChartComponent,
+    PieChartComponent
   ],
   imports: [
     BrowserModule,
